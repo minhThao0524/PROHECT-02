@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=EB+Garamond&family=Italiana&family=Lato:wght@100;400&family=Manrope:wght@200&family=Merriweather:wght@300&family=Montserrat&family=Mulish:wght@300;500&family=Nunito:wght@500&family=Open+Sans&family=Playfair+Display:ital,wght@0,400;1,500&family=Poppins:wght@200;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Sen:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --primary-color: #ffb900;
+    --font-heading: Sen, sans-serif;
+    --font-title :Poppins, sans-serif;
+}
+
+.content
+.desc,
+.infor
+.desc,
+.content-block
+.desc{
+    font-size: 18px;
+    color: #5f5b53;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 22px;
+    line-height: 1.67;
+}
+.features-2nd
+.content
+.desc,
+.content
+.desc{
+    font-size: 16px;
+    line-height: 1.75;
+}
+.info
+.btn,
+.content
+.btn,
+.infor
+.btn,
+.content-block
+.btn{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-title);
+    padding: 0px 16px;
+    border-radius: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+}
+.blog-top
+.heading,
+.content
+.heading,
+.popular-top
+.infor
+.heading{
+    font-size: 38px;
+    font-family: var(--font-heading);
+    color: #171100;
+}
